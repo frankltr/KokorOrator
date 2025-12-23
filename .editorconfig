@@ -1,0 +1,11 @@
+# Rimuove gli errori StyleCop specifici
+[*.cs]
+
+# Regola SA1633: Intestazione mancante/errata
+# severity = none la disattiva completamente
+# severity = warning la fa diventare un avviso (non blocca la build)
+# severity = error la fa diventare un errore
+dotnet_diagnostic.SA1633.severity = none
+
+# Regola SA1200: Using esterni al namespace
+dotnet_diagnostic.SA1200.severity = none
