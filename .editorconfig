@@ -25,3 +25,9 @@ dotnet_diagnostic.SA1311.severity = none
 
 # SA1413: The last statement in a multi-line C# initializer or list is missing a trailing comma
 dotnet_diagnostic.SA1413.severity = none
+
+# SA1117: The parameters to a C# method or indexer call or declaration are not all on the same line or each on a separate line
+dotnet_diagnostic.SA1117.severity = none
+
+# SA1121: The code uses one of the basic C# types, but does not use the built-in alias for the type
+dotnet_diagnostic.SA1121.severity = none
