@@ -1,11 +1,15 @@
 # Rimuove gli errori StyleCop specifici
 [*.cs]
 
-# Regola SA1633: Intestazione mancante/errata
-# severity = none la disattiva completamente
-# severity = warning la fa diventare un avviso (non blocca la build)
-# severity = error la fa diventare un errore
+# ----------------------------------------
+# StyleCop.Analyzers: Regole Disattivate
+# ----------------------------------------
+
+# SA1633: File header is missing or not located at the top of the file
 dotnet_diagnostic.SA1633.severity = none
 
-# Regola SA1200: Using esterni al namespace
+# SA1200: Using directive should appear within a namespace declaration
 dotnet_diagnostic.SA1200.severity = none
+
+# SA1513: Closing brace should be followed by blank line
+dotnet_diagnostic.SA1513.severity = none
