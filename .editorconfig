@@ -34,3 +34,6 @@ dotnet_diagnostic.SA1121.severity = none
 
 # SA1101: A call to an instance member of the local class or a base class is not prefixed with 'this.', within a C# code file
 dotnet_diagnostic.SA1101.severity = none
+
+# RSPEC-3267: Loops should be simplified using the "Where" LINQ method
+dotnet_diagnostic.S3267.severity = none
