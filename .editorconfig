@@ -37,3 +37,6 @@ dotnet_diagnostic.SA1101.severity = none
 
 # RSPEC-3267: Loops should be simplified using the "Where" LINQ method
 dotnet_diagnostic.S3267.severity = none
+
+# RSPEC-3267: Static fields should be initialized inline
+dotnet_diagnostic.S3963.severity = none
