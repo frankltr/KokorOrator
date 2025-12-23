@@ -16,3 +16,12 @@ dotnet_diagnostic.SA1513.severity = none
 
 # SA1516: Elements Must Be Separated By Blank Line
 dotnet_diagnostic.SA1516.severity = none
+
+# SA1310: A field name in C# contains an underscore
+dotnet_diagnostic.SA1310.severity = none
+
+# SA1311: The name of a static readonly field does not begin with an upper-case letter
+dotnet_diagnostic.SA1311.severity = none
+
+# SA1413: The last statement in a multi-line C# initializer or list is missing a trailing comma
+dotnet_diagnostic.SA1413.severity = none
