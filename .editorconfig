@@ -13,3 +13,6 @@ dotnet_diagnostic.SA1200.severity = none
 
 # SA1513: Closing brace should be followed by blank line
 dotnet_diagnostic.SA1513.severity = none
+
+# SA1516: Elements Must Be Separated By Blank Line
+dotnet_diagnostic.SA1516.severity = none
